@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import time
 import subprocess
-from flask import Flask, Response, send_from_directory
+from flask import Flask, Response
 
 app = Flask(__name__, static_folder='static')
 
